@@ -1,216 +1,50 @@
+/* Container needed to position the button. Adjust the width as needed */
+.hero {
+  position: relative;
+  width: 100%;
+}
 
-body{
-    background-color:white;
-    max-width: 1300px;
-    margin: auto;
-    height: 100vh;
-  }
+/* Make the image responsive */
+.hero img {
+  width: 100%;
+  height: auto;
+}
 
-  .scolling-box {
-    scroll-behavior: smooth;
-  }
- 
-  ul {
-    display:flex;
-    float: right;
-    height: 50px;
-    list-style-type: none;
-    background-color:white;
-  }
-  
-  .footer {
-    display:flex;
-    width: 100%;
-    flex-direction: row;
-    list-style-type: none;
-    background-color:whitesmoke;
-    float:left;
-  }
-  
-  .herosection {
-    display: flex;
-    width: 100%
-  }
+/* Style the button and place it in the middle of the container/image */
+.hero .btn {
+  text-align: center;
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #CACB65;
+  color: black;
+  font-size: 22px;
+  padding: 15px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.btn {
+  text-align: center;}
 
-  .introcontainer {
-  flex-direction:column;
-  width:80%;
-  }
-
-  .imagecontainer {
-  flex-direction:column;
-  }
-  
- a {
-    display: inline-block;
-    font-family:'Mulish', sans-serif;
-    font-weight: 100;
-    color:#252525;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration:none;
-    text-transform:uppercase;
-  }
-  
- a:hover {
-    color:rgb(255, 191, 71);
-  }
-
-    
-    .div1 {
-      width: 100%;
-      height: 500px;
-      border: 2px black;
-      background-color:white;
-
-    }
-    .heroImg {
-      width: 300px;
-      display:inline-block;
-      float: right;
-      margin-right: 20px;
-    }
-
-
-    .div2 {
-      width: 500px;
-      height: 500px;
-      border: 2ps black;
-    }
-    
-    h1 {
-      display:inline-flex;
-      font-family: 'Lora', serif;
-      font-size:xx-large;
-      margin-left:50px;
-      width:450px;
-    }
-
-    p1 {
-      display: flex;
-      flex-direction: column;
-      font-family:'Mulish', sans-serif;
-      font-size: 16px;
-      font-weight: 100;
-      width: 600px;
-      height: 200px;
-      margin-left: 50px;
-    }
-
-  .dlresumebutton{
-    width:200px;
-    height: 50px;
-    background-color:#FFF9E3;
-    border-radius:3px;
-  }
-
-  button:hover {
-    background-color:black;
-    color:whitesmoke;
-  }
-
-  /* <!--  My UX Skills section coded using CSS flex --> */
-
-  .flexContainer{
-    display: inline-flex;
-    flex-direction:row;
-  }
-
-  h2 {
-    font-family:'Lora', serif;
-    font-size:30px;
-    text-align:center;
-    padding:50px;
-  }
-
-  h3 {
-    font-family:'Lora', serif;
-    font-size:16px;
-    margin-left: 50px;
-  }
-
-  section p2 {
-    display:flex;
-    font-family:'Mulish', sans-serif;
-    font-weight: 100;
-    width: 30% 30% 30%;
-    margin-left: 50px;
-  }
-
-  /* <!-- My Work Section Constructed using CSS Grid --> */
-  .workGrid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 400px 400px 400px;
-    grid-row-gap: 50px;
-  }
-
-  .workGrid img {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-
-  .project1{
-    background-color:#FFF9E3;
-
-  }
-
-  .project2{
-    background-color:#DBFCF9;
-  }
-
-  .project3{
-    background-color:#EEFFEE;
-  }
-
-  h4{
-    font-size:25px;
-    margin-left: 25px;
-  }
-
-  .workGrid p{
-    margin-left: 25px;
-    font-family:'Mulish', sans-serif;
-    font-weight: 100;
-  }
-
-
-  button{
-    padding: 15px;
-    margin-top: 20px;
-    margin-left: 25px;
-    background-color:white;
-    font-size: 15px;
-    border-radius: 3px;
-  }
-
-  p3 {
-    display: block;
-    text-align: center;
-    margin-bottom: 60px;
-    font-family:'Mulish', sans-serif;
-    font-weight: 100;
-
-  }
-  
-
-  @media only screen and (max-width:600px){
-    .flexContainer {
-      flex-direction: column;
-    }
-
-    .introContainer {
-      flex-direction: column;
-    }
-
-    .workGrid{
-      grid-template-columns:1fr;
-    }
-
-    .herosection {
-      flex-direction: column;
-      line-height:150%;
-    }
-
-  }
+.hero .btn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #CACB65;
+  color: black;
+  font-size: 22px;
+  padding: 15px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
