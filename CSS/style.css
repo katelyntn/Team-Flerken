@@ -1,4 +1,10 @@
 /* Container needed to position the button. Adjust the width as needed */
+.header-nav{
+  font-family: montserrat;
+  font-size: 22px;
+  padding: 60px;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -28,11 +34,41 @@
   cursor: pointer;
   border-radius: 25px;
 }
-.btn {
-  text-align: center;}
 
 .hero .btn:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #CACB65;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 15px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.about-george{
+  background-color:cornsilk;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+  font-family: Cormorant;
+}
+
+.about-george p{
+  font-family: montserrat;
+}
+
+.read-more .btn {
+  text-align: center;
   width: 20%;
   height: 10%;
   position: absolute;
@@ -46,5 +82,24 @@
   padding: 15px 24px;
   border: none;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 25px;
+}
+
+.current-offerings{
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Cormorant;
+}
+
+.wine-info h3{
+  font-family: cormorant;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.wine-info p{
+  font-family: montserrat;
 }
