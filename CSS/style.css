@@ -14,6 +14,12 @@ button.link {
   color: black;
 }
 
+.my-wines:hover a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 .hero {
   position: relative;
   width: 100%;
