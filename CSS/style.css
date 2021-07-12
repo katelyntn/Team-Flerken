@@ -5,6 +5,15 @@
   padding: 60px;
 }
 
+button.link {
+  background:none;border:none;
+}
+
+.my-wines a{
+  text-decoration: none;
+  color: black;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -17,10 +26,12 @@
 }
 
 /* Style the button and place it in the middle of the container/image */
-.hero .btn {
-  text-align: center;
+.hero .hero-btn {
+  font-family: montserrat;
+  justify-content: center;
+  align-items: center;
   width: 20%;
-  height: 10%;
+  height: 45px;
   position: absolute;
   top: 80%;
   left: 50%;
@@ -29,16 +40,19 @@
   background-color: #CACB65;
   color: black;
   font-size: 22px;
-  padding: 15px 24px;
   border: none;
   cursor: pointer;
   border-radius: 25px;
 }
 
-.hero .btn:hover {
+.hero .hero-btn:hover {
+  font-family: montserrat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
   width: 20%;
-  height: 10%;
+  height: 45px;
   position: absolute;
   top: 80%;
   left: 50%;
@@ -46,43 +60,55 @@
   -ms-transform: translate(-50%, -50%);
   background-color: #CACB65;
   color: black;
-  font-weight: bold;
   font-size: 22px;
-  padding: 15px 24px;
   border: none;
   cursor: pointer;
   border-radius: 25px;
 }
 
 .about-george{
-  background-color:cornsilk;
+  background-color:#EEEEEE;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  padding-top: 100px;
+  padding-bottom: 60px;
   text-align: center;
   font-family: Cormorant;
 }
 
 .about-george p{
   font-family: montserrat;
+  justify-content: center;
 }
 
-.read-more .btn {
+.read-more{
+  margin-top: 30px;
+  justify-content: center;
+  width: 35%;
+  height: 45px;
   text-align: center;
-  width: 20%;
-  height: 10%;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #CACB65;
   color: black;
   font-size: 22px;
-  padding: 15px 24px;
+  background: #CACB65;
   border: none;
-  cursor: pointer;
-  border-radius: 25px;
+  border-radius: 20px;
+  font-family: montserrat;
+}
+  
+.read-more:hover{
+  justify-content: center;
+  width: 35%;
+  height: 45px;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  background: #CACB65;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  font-family: montserrat;
 }
 
 .current-offerings{
@@ -98,8 +124,77 @@
   font-family: cormorant;
   font-weight: bold;
   font-size: 24px;
+  padding: 20px;
 }
 
 .wine-info p{
   font-family: montserrat;
+  padding: 40px;
 }
+
+.wine-info{
+  padding: 20px;
+}
+
+.more-btn{
+  width: 35%;
+  height: 45px;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  background: #FFFFFF;
+  border: 2px solid #CACB65;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: montserrat;
+}
+
+.more-btn:hover{
+  width: 35%;
+  height: 45px;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  background: #FFFFFF;
+  border: 2px solid #CACB65;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  font-family: montserrat;
+}
+
+#back2Top {
+  width: 60px;
+  line-height: 60px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  background-color: 255, 255, 255, 0.25;
+  color: #CACB65;
+  text-align: center;
+  font-size: 60px;
+  text-decoration: none;
+  box-shadow: inset -1px 1px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+}
+#back2Top:hover {
+  background-color: 255, 255, 255, 0.50;
+  color: #000;
+}
+
+html { scroll-behavior: smooth; }
