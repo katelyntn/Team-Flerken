@@ -1,6 +1,8 @@
 html { scroll-behavior: smooth; }
 
+
 .header-nav{
+  background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   padding: 60px;
@@ -20,6 +22,7 @@ button.link {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-size: larger;
 }
 
 .hero {
@@ -229,14 +232,43 @@ footer {
 }
 
 /* Our Story Page */
+
+button.story-link {
+  background:none;border:none;
+  color: #510D08;
+  font-weight: bold;
+}
+
+/* Home Logo Overlay */
+.figure {
+  position: relative;
+  max-width: 100%;
+}
+
+
+.figure img.image-hover {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+  }
+
+.figure:hover img.image-hover {
+  opacity: 1;
+  }
+
+  /* Story Section */
 .george-story{
   background-color:#EEEEEE;
   justify-content: center;
   align-items: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   border-bottom: #CACB65;
-  border-width: 15px;
+  border-width: 10px;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
 }
@@ -246,3 +278,13 @@ footer {
   justify-content: center;
 }
 
+.story-top-body{
+  text-align: left;
+  font-family: montserrat;
+  font-weight: bold;
+}
+.story-lower-body {
+  text-align: left;
+  font-family: montserrat;
+  font-weight: bold;
+}
