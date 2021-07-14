@@ -1,4 +1,5 @@
-/* Container needed to position the button. Adjust the width as needed */
+html { scroll-behavior: smooth; }
+
 .header-nav{
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
@@ -203,6 +204,7 @@ button.link {
   box-shadow: inset -1px 1px 4px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(20px);
   border-radius: 10px;
+  align-items: center;
 }
 #back2Top:hover {
   background-color: 255, 255, 255, 0.50;
@@ -215,5 +217,21 @@ footer {
   color: white;
 }
 
+/* Our Story Page */
+.george-story{
+  background-color:#EEEEEE;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: #CACB65;
+  border-width: 15px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
 
-html { scroll-behavior: smooth; }
+.george-story p{
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+}
+
