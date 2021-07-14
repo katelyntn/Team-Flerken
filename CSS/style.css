@@ -1,6 +1,6 @@
 /* Container needed to position the button. Adjust the width as needed */
 .header-nav{
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   padding: 60px;
 }
@@ -33,7 +33,7 @@ button.link {
 
 /* Style the button and place it in the middle of the container/image */
 .hero .hero-btn {
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
   justify-content: center;
   align-items: center;
   width: 20%;
@@ -79,11 +79,11 @@ button.link {
   padding-top: 100px;
   padding-bottom: 60px;
   text-align: center;
-  font-family: Cormorant;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .about-george p{
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
   justify-content: center;
 }
 
@@ -98,7 +98,7 @@ button.link {
   background: #CACB65;
   border: none;
   border-radius: 20px;
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
   
 .read-more:hover{
@@ -114,7 +114,7 @@ button.link {
   margin-right: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-weight: bold;
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .current-offerings{
@@ -123,18 +123,19 @@ button.link {
   padding: 40px;
   text-align: center;
   font-size: 30px;
-  font-family: Cormorant;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
 }
 
 .wine-info h3{
-  font-family: cormorant;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: bold;
   font-size: 24px;
   padding: 20px;
 }
 
 .wine-info p{
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
   padding: 40px;
 }
 
@@ -154,7 +155,7 @@ button.link {
   border-radius: 20px;
   margin-left: 200px;
   margin-right: 200px;
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .more-btn:hover{
@@ -171,7 +172,7 @@ button.link {
   margin-right: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-weight: bold;
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #back2Top {
@@ -202,5 +203,12 @@ button.link {
   background-color: 255, 255, 255, 0.50;
   color: #000;
 }
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #510D08;
+  color: white;
+}
+
 
 html { scroll-behavior: smooth; }
